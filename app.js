@@ -13,14 +13,16 @@ for (let button of buttons) {
         } catch (err) {
           input.value = "invalid operation";
         }
-      } else {
-        if(input.value==="0"){
-            input.value=btnText
+      }  else if(input.value==="0") {
+        input.value=btnText
         }else{
             input.value += btnText;
-
+    
         }
-        
-      }
     });
   }
+
+
+ 
+    
+  
